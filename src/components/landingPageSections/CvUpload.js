@@ -61,6 +61,7 @@ function CvUpload() {
                           onChange={(e) => uploadCV(e)}
                         />
         <button
+        
         onClick={() => inputRef.current.click()}
         ><img src={upload} alt="upload"/>Upload Your CV</button>
       </div>

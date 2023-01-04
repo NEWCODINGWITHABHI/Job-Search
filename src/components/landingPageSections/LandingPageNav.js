@@ -63,8 +63,9 @@ function LandingPageNav() {
   };
 
   return (
-    <AppBar position="sticky">
-      <Container maxWidth="xl">
+    <AppBar position="sticky"  >
+      <Container maxWidth=""
+      className="nav-container">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
           <img src={joblogo} style={{width:"50px",marginRight:"10px"}} alt="joblogo"/>

@@ -3,6 +3,11 @@ button{
     cursor: pointer;
 }
 
+.nav-container{
+    width:100% !important;
+    padding:0.2rem 2rem !important;
+    
+}
 .right-job-container{
     display: flex;
     flex-direction: column;

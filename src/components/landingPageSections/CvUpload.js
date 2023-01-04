@@ -11,20 +11,8 @@ function CvUpload() {
   const [uploadLoading, setUploadLoading] = useState(0);
   const [cv,setCV]=useState(false);
   let inputRef = React.createRef();
-  const [values, setValues] = useState({
-    //should be fetched from firestore if the user has already created a profile
-    companyName: "",
-    companyWebsite: "",
-    companyEmail: "",
-    companyPhone: "",
-    industryType: "",
-    noOfEmployees: "",
-
-    companyLocation: "",
-    companyTagline: "",
-    companyDescription: "",
-    cv: "",
-  });
+  
+  
 
   const uploadCV=(e)=>{
     let file = e.target.files[0];
